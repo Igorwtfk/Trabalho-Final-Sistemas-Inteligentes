@@ -20,4 +20,4 @@ ISOT Fake News Dataset.
 O notebook principal está em:
 
 ```text
-notebooks/FakeNews_NaiveBayes_ISOT.ipynb
+notebooks/FakeNews_NaiveBayes_.ipynb
