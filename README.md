@@ -1,23 +1,37 @@
-# Detecção de Fake News com Naive Bayes
+# Detecção de Fake News com Naive Bayes 📰🤖
 
-Trabalho final da disciplina *Sistemas Inteligentes* – Sistemas de Informação - UFPI(CSHNB).
+Trabalho final da disciplina **Sistemas Inteligentes** do curso de **Sistemas de Informação (UFPI – CSHNB)**.
+
+O projeto aplica técnicas de **Processamento de Linguagem Natural (PLN)** combinadas com o algoritmo **Naive Bayes Multinomial** para detecção automática de *fake news* utilizando o **ISOT Fake News Dataset**.
+
+---
 
 ## Docente
-- Professor - @romuere
+
+- Professor: **@romuere**
 
 ## Discentes
 
-- Aluno – @igor.wtfk
-- Aluno – @Yuri-Marques
-- Aluno – @Wands77
+- **@igor.wtfk**
+- **@Yuri-Marques**
+- **@Wands77**
 
-## Objetivo
+---
 
-Este projeto aplica técnicas de Processamento de Linguagem Natural (PLN) e o algoritmo
-Naive Bayes Multinomial para detecção automática de *fake news* utilizando o
-ISOT Fake News Dataset.
+## Objetivo do Projeto
 
-O notebook principal está em:
+Investigar se é possível distinguir notícias falsas de verdadeiras **apenas a partir do conteúdo textual**, utilizando:
+
+- Pré-processamento de texto (limpeza, normalização, remoção de *stopwords* etc.);  
+- Representações vetoriais com **TF** e **TF-IDF**;  
+- Modelos com **Unigramas** e **Bigramas**;  
+- Classificador **Naive Bayes Multinomial**;  
+- Avaliação com **validação cruzada (k-fold)** e **teste hold-out**.
+
+---
+
+## Estrutura do Repositório
 
 ```text
-Trabalho-Final-Sistemas-Inteligentes/FakeNews_NaiveBayes_.ipynb
+Trabalho-Final-Sistemas-Inteligentes/
+└── FakeNews_NaiveBayes_.ipynb   # Notebook principal com todo o pipeline
